@@ -1,0 +1,47 @@
+<html>
+    <head><h1>DIVISION TAG TESTING</h1></head>
+    <link rel="stylesheet" href="https://salman1401028.github.io/div_tag/div .css">
+    <body>
+        <div class="content" id="yellow">Hello how r uu?</div>
+        <div class="content" id="green">Hello how r u?</div>
+        <div class="content" id="blue">Hello how r u?</div>
+        <div class="content" id="silver">Hello how r u?</div>
+    </body>
+</html>
+
+<style>
+
+/*IN THE BELOW CODE WE CAN SEE THAT THE SIMILAR(COMMON) PROPERTIES ARE WRITTEN IN CLASS "CONTENT" AND THE UNIQUE PROPERTIES ARE
+MENTIONED IN DIFFERENT ID's */
+
+
+/* BELOW IS THE CLASS FOR SIMILAR PROPERTIES*/
+div.content{
+    height:150px;
+    width: 150px;
+    border: 10px solid black ; /* ( size,type,color )*/ 
+
+    float:left;  /* by default DIV do not allow any element to comes to it's right side as it is a block element so for that
+                    we need to add float: left (TO BRING IT SIDE BY SIDE) */
+
+    margin:20px; /* This is to add space between each DIV element, the margin by default is applied to all the sides of div block. */
+    
+}
+/*BELOW ARE THE ID'S FOR DIFFERENT PROPERTIES, HERE IN THIS EXAMPLE BACKGROUND-COLOR IS THE DIFFERENT PROPERTY
+ OTHERWISE ALL OTHER PROPERTIES ARE SAME*/
+div#yellow{
+    background-color: yellow;
+}
+div#green{
+    background-color: green;
+}
+div#blue{
+    background-color: blue;
+}
+
+
+div#silver{
+    background-color:silver;
+}
+
+</style>
